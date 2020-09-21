@@ -22,7 +22,7 @@ import javax.swing.JOptionPane;
  * @author Jove
  */
 public class PosBoxFrame extends javax.swing.JFrame {
-    public static String DriverDB="org.apache.derby.jdbc.EmbeddedDriver";
+    public static String DriverDB="org.apache.derby.jdbc.ClientDriver";
     static String connectionURL = "jdbc:derby:"+System.getProperty("user.home")+"/jPosBox/db;create=true";
     Statement stmt = null;
 
